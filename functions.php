@@ -677,7 +677,8 @@ function create_project_post_type()
 		array(
 			'labels' => array(
 				'name' => __('Projects'),
-				'singular_name' => __('Project')
+				'singular_name' => __('Project'),
+				'add_new' => __('Add New Project'),
 			),
 			'public' => true,
 			'has_archive' => true,
